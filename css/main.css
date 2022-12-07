@@ -7,8 +7,14 @@ header{
     height: 100px;
     align-items: center;
     /* padding: 10PX; */
-    padding-left: 50px;
+    /* padding-left: 50px; */
     text-transform: uppercase;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 body{
     font-family: sans-serif;
@@ -57,10 +63,12 @@ a img{
 }
 nav a{
     padding-right: 10px;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: large;
 }
 a h2{
     margin-left:40px;
+    align-self: center;
 }
 header nav{
     margin-right: 300px;
@@ -76,6 +84,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     width: 100vw;
+    padding-top: 200px;
     margin: 0;
     position: relative;
     z-index: 2;
@@ -103,7 +112,7 @@ video{
     margin: 0;
     position: relative;
     /* height: 69vh; */
-    height: 900px;
+    height: 655px;
     width: 100vw;
     background-color: black;
 }
@@ -129,6 +138,7 @@ pre{
     color: green;
     background-color: rgba(0, 0, 0, 0.979);
     border-style: groove;
+    padding-right: 120px;
 }
 samp{
     color: green;
@@ -155,3 +165,9 @@ samp{
     flex-direction: row;
 }
 .separador{margin: 0;}
+
+/* divs de despues del video */
+.main-text{
+    height: 650px;
+
+}
