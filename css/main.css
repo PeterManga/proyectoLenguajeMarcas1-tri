@@ -25,10 +25,10 @@ body{
 .contenedor{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
     /* width: 100vw; */
-    height: 4000px;
+    height: 2500px;
 }
 .contenedor-main{
     display: flex;
@@ -49,7 +49,6 @@ main{
 } */
 footer{
     display: flex;
-    /* height: 5vh; */
     height: 100px;
 }
 /* personalizacion del header */
@@ -149,7 +148,8 @@ samp{
 .separador{
     background-color: black;
     /* height: 10vh; */
-    height: 50px;
+    height: 300px;
+    margin: 0;
 }
 .separador h1{
     color: white;
@@ -164,10 +164,29 @@ samp{
     display: flex;
     flex-direction: row;
 }
-.separador{margin: 0;}
 
 /* divs de despues del video */
 .main-text{
-    height: 650px;
+    height: 750px;
+    display: flex;
 
+}
+.main-text-foto{
+    background-color: chocolate;
+    width: 40vw;
+    height: 750px;
+    display: flex;
+}
+.main-text-foto img{
+    align-self: center;
+    width: 400px;
+    margin-left: 20px;
+}
+.main-text-texto{
+    background-color: white;
+    width: 60vw;
+}
+.sobre-mi{
+    height:650px ;
+    background-color: aquamarine;
 }

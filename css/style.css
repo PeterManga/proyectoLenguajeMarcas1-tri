@@ -96,3 +96,14 @@ footer{
 ul{
     margin:0;
 }
+.frase{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    margin: 0;
+    font-size: smaller;
+    text-align: center;
+    margin-left: 30px;
+    font-style: italic;
+}

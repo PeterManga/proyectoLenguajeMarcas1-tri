@@ -86,6 +86,9 @@ nav a:hover{
     color: #fff;
     margin-bottom: 25px;
 }
+fieldset{
+    border: 0;
+}
 
 .form-body input {
     display: block;
