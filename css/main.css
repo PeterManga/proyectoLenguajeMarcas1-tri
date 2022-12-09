@@ -3,11 +3,9 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: black;
-    /* height: 8vh; */
     height: 100px;
     align-items: center;
-    /* padding: 10PX; */
-    /* padding-left: 50px; */
+
     text-transform: uppercase;
 }
 *{
@@ -25,31 +23,25 @@ body{
 .contenedor{
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
     margin: 0;
-    /* width: 100vw; */
     height: 2500px;
 }
 .contenedor-main{
     display: flex;
     width: 100vw;
-    /* height: 87vh; */
     height:3800px ;
-    background-color: blue;
 }
 main{
     width: 100vw;
-    background-color:green;
-    margin: 0;    
-    
+    margin: 0;     
 }
-/* aside{
-    width: 35vw;
-    background-color: aquamarine;
-} */
+
 footer{
     display: flex;
     height: 100px;
+    justify-content: space-between;    
+    background-color: black;
+    text-align: center
 }
 /* personalizacion del header */
 .logo{display: flex;}
@@ -107,16 +99,11 @@ video{
     mix-blend-mode: overlay;
 }
 .contenedorvideo{
-    /* min-height: 100vh; */
     margin: 0;
     position: relative;
-    /* height: 69vh; */
     height: 655px;
     width: 100vw;
     background-color: black;
-}
-.texto{
-    background-color: rgb(0, 0, 0);
 }
 button{
     width: 150px;
@@ -146,21 +133,15 @@ samp{
 }
 /* separador */
 .separador{
-    /* height: 10vh; */
     height: 300px;
     display: flex;
     width: 100vw;
     margin: 0;
-    /* background-image: linear-gradient(100deg, rgba(22, 23, 22, 0.63), rgba(0, 0, 0, 0.636)); */
-    
 }
 .separador-frase h1{
     color: white;
 }
-/* aside{
-    height: 400px;
-    background-color: blue;
-} */
+
 .separador-img{
     width: 50vw;
     align-items: left;
@@ -207,16 +188,34 @@ samp{
 .main-text-texto{
     background-color: white;
     width: 60vw;
+    align-items: center;
 }
+.main-text-texto1{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-text-texto2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.main-text-texto2 address a{
+    color: black;
+}
+.main-text-texto1 h2{
+    font-size: xx-large;
+}
+
 .sobre-mi{
     height:650px ;
-    background-color: aquamarine;
-    /* display: flex; */
 }
 .sobre-mi-sup{
     height: 250px;
     width: 100vw;
-    background-color: red;
+    background-color: white;
 }
 .sobre-mi-sub{
     height: 450px;
@@ -239,12 +238,28 @@ th,td {
     text-align: center;
     border-bottom: 1px solid #13e300;
 }
+th{
+    background-color: #13e300;
+}
 .tecnologias:hover {
     background-color: green;
     border-style: hidden;
     transform: scale(1.02);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
 }
+.tecnologias2:hover {
+    background-color: #13e300;
+    border-style: hidden;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
 caption{
-    
+    background-color: black;
+    color: white;
+}
+/* Contenedor footer */
+footer a{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
