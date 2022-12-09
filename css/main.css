@@ -146,18 +146,41 @@ samp{
 }
 /* separador */
 .separador{
-    background-color: black;
     /* height: 10vh; */
     height: 300px;
+    display: flex;
+    width: 100vw;
     margin: 0;
+    /* background-image: linear-gradient(100deg, rgba(22, 23, 22, 0.63), rgba(0, 0, 0, 0.636)); */
+    
 }
-.separador h1{
+.separador-frase h1{
     color: white;
 }
 /* aside{
     height: 400px;
     background-color: blue;
 } */
+.separador-img{
+    width: 50vw;
+    align-items: left;
+}
+.separador-frase{
+    width:50vw ;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(100deg, rgba(0, 0, 0, 0.950), rgba(19, 71, 21, 0.825));
+}
+.separador-frase h1{
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    
+}
+.separador-img img{
+    width: 100vw;
+    height: 300px;
+}
 .pruebas{
     height: 500px;
     background-color: brown;
@@ -169,10 +192,9 @@ samp{
 .main-text{
     height: 750px;
     display: flex;
-
 }
 .main-text-foto{
-    background-color: chocolate;
+    background-color: white;
     width: 40vw;
     height: 750px;
     display: flex;
@@ -180,7 +202,7 @@ samp{
 .main-text-foto img{
     align-self: center;
     width: 400px;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 .main-text-texto{
     background-color: white;
@@ -189,4 +211,40 @@ samp{
 .sobre-mi{
     height:650px ;
     background-color: aquamarine;
+    /* display: flex; */
+}
+.sobre-mi-sup{
+    height: 250px;
+    width: 100vw;
+    background-color: red;
+}
+.sobre-mi-sub{
+    height: 450px;
+    background-color: white;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+/* tablas */
+table{
+    border-collapse: collapse;
+    border: 1px solid #13e300;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+th,td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #13e300;
+}
+.tecnologias:hover {
+    background-color: green;
+    border-style: hidden;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+caption{
+    
 }
